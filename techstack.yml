@@ -1,0 +1,1864 @@
+repo_name: 2lambda123/conductor
+report_id: 171032e8584a1d2ac96e558bf390544f
+version: 0.1
+repo_type: Public
+timestamp: '2024-01-09T08:00:48+00:00'
+requested_by: youngledo
+provider: github
+branch: main
+detected_tools_count: 144
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/2lambda123/conductor
+  detection_source: Repo Metadata
+- name: Groovy
+  description: A multi-faceted language for the Java platform
+  website_url: https://groovy-lang.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/997/default_7ff5fcd857f42ad25149f659693d8930bffddf14.png
+  detection_source_url: https://github.com/2lambda123/conductor
+  detection_source: Repo Metadata
+- name: Java
+  description: A concurrent, class-based, object-oriented, language specifically designed
+    to have as few implementation dependencies as possible
+  website_url: https://www.java.com
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source_url: https://github.com/2lambda123/conductor
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/2lambda123/conductor
+  detection_source: Repo Metadata
+- name: TypeScript
+  description: A superset of JavaScript that compiles to clean JavaScript output
+  website_url: http://www.typescriptlang.org
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source_url: https://github.com/2lambda123/conductor
+  detection_source: Repo Metadata
+- name: D3.js
+  description: A JavaScript visualization library for HTML and SVG
+  website_url: http://d3js.org/
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Charting Libraries
+  image_url: https://img.stackshare.io/service/1491/HgKolWB5_400x400.jpg
+  detection_source_url: https://github.com/2lambda123/conductor/blob/main/ui/package.json
+  detection_source: ui/package.json
+  last_updated_by: Viren Baraiya
+  last_updated_on: 2016-12-07 22:49:52.000000000 Z
+- name: Jackson
+  description: A suite of data-processing tools for Java
+  website_url: https://github.com/FasterXML/jackson
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Java Tools
+  image_url: https://ucarecdn.com/d8ec839d-4d66-4c08-8297-9e2be82f6b75/
+  detection_source_url: https://github.com/2lambda123/conductor/blob/main/annotations-processor/dependencies.lock
+  detection_source: annotations-processor/dependencies.lock
+  last_updated_by: Scott Carter
+  last_updated_on: 2023-11-25 06:58:27.000000000 Z
+- name: Material-UI
+  description: Material UI is a library of React UI components that implements Google's
+    Material Design.
+  website_url: https://github.com/mui/material-ui
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Front-End Frameworks
+  image_url: https://img.stackshare.io/service/1904/default_44d81cb9fadbc3688b7e91a6d5217d0ea5358b57.png
+  detection_source_url: https://github.com/2lambda123/conductor/blob/main/ui/package.json
+  detection_source: ui/package.json
+  last_updated_by: peterlau
+  last_updated_on: 2022-03-14 17:29:34.000000000 Z
+- name: Node.js
+  description: A platform built on Chrome's JavaScript runtime for easily building
+    fast, scalable network applications
+  website_url: http://nodejs.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
+  detection_source_url: https://github.com/2lambda123/conductor/blob/main/docker/docker-compose.yaml
+  detection_source: docker/docker-compose.yaml
+  last_updated_by: Jesse C. Antoszyk
+  last_updated_on: 2017-01-17 16:44:02.000000000 Z
+- name: Protobuf
+  description: Google's data interchange format
+  website_url: https://developers.google.com/protocol-buffers/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Serialization Frameworks
+  image_url: https://img.stackshare.io/service/4393/ma2jqJKH_400x400.png
+  detection_source_url: https://github.com/2lambda123/conductor/blob/main/annotations-processor/build.gradle
+  detection_source: annotations-processor/build.gradle
+  last_updated_by: Richard Meng
+  last_updated_on: 2023-11-12 08:52:31.000000000 Z
+- name: React
+  description: A JavaScript library for building user interfaces
+  website_url: https://reactjs.org/
+  version: 16.14.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1020/OYIaJ1KK.png
+  detection_source_url: https://github.com/2lambda123/conductor/blob/main/ui/yarn.lock
+  detection_source: ui/package.json
+  last_updated_by: Young-Zen
+  last_updated_on: 2023-11-12 08:53:11.000000000 Z
+- name: React Router
+  description: A complete routing solution for React.js
+  website_url: https://github.com/rackt/react-router
+  version: 5.3.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: JavaScript Framework Components
+  image_url: https://img.stackshare.io/service/3350/8261421.png
+  detection_source_url: https://github.com/2lambda123/conductor/blob/main/ui/yarn.lock
+  detection_source: ui/package.json
+  last_updated_by: Young-Zen
+  last_updated_on: 2023-11-12 08:53:11.000000000 Z
+- name: RxJava
+  description: Reactive Extensions for the JVM
+  website_url: https://github.com/ReactiveX/RxJava
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Java Tools
+  image_url: https://img.stackshare.io/service/2190/6407041.png
+  detection_source_url: https://github.com/2lambda123/conductor/blob/main/awss3-storage/dependencies.lock
+  detection_source: awss3-storage/dependencies.lock
+  last_updated_by: Aravindan Ramkumar
+  last_updated_on: 2021-04-01 20:20:49.000000000 Z
+- name: Sass
+  description: Syntactically Awesome Style Sheets
+  website_url: http://sass-lang.com/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/1171/jCR2zNJV.png
+  detection_source_url: https://github.com/2lambda123/conductor/blob/main/ui/package.json
+  detection_source: ui/package.json
+  last_updated_by: Viren Baraiya
+  last_updated_on: 2016-12-07 22:49:52.000000000 Z
+- name: Spring Framework
+  description: An application framework and inversion of control container for the
+    Java platform
+  website_url: https://spring.io/projects/spring-framework
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/2006/spring-framework-project-logo.png
+  detection_source_url: https://github.com/2lambda123/conductor/blob/main/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Scott Carter
+  last_updated_on: 2023-11-25 06:58:27.000000000 Z
+- name: styled-components
+  description: Visual primitives for the component age. Use the best bits of ES6 and
+    CSS to style your apps without stress.
+  website_url: https://styled-components.com
+  version: 5.3.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: JavaScript Framework Components
+  image_url: https://img.stackshare.io/service/6749/styled-components.png
+  detection_source_url: https://github.com/2lambda123/conductor/blob/main/ui/yarn.lock
+  detection_source: ui/package.json
+  last_updated_by: peterlau
+  last_updated_on: 2022-03-14 17:29:34.000000000 Z
+- name: Amazon S3
+  description: Store and retrieve any amount of data, at any time, from anywhere on
+    the web
+  website_url: http://aws.amazon.com/s3
+  open_source: false
+  hosted_saas: true
+  category: Data Stores
+  sub_category: Cloud Storage
+  image_url: https://img.stackshare.io/service/25/amazon-s3.png
+  detection_source_url: https://github.com/2lambda123/conductor/blob/main/awss3-storage/dependencies.lock
+  detection_source: awss3-storage/dependencies.lock
+  last_updated_by: Anoop Panicker
+  last_updated_on: 2022-02-15 20:41:45.000000000 Z
+- name: Cassandra
+  description: A partitioned row store. Rows are organized into tables with a required
+    primary key.
+  website_url: http://cassandra.apache.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1032/cassandra_small.png
+  detection_source_url: https://github.com/2lambda123/conductor/blob/main/cassandra-persistence/dependencies.lock
+  detection_source: cassandra-persistence/dependencies.lock
+  last_updated_by: Aravindan Ramkumar
+  last_updated_on: 2021-11-07 03:18:26.000000000 Z
+- name: Redis
+  description: Open source (BSD licensed), in-memory data structure store
+  website_url: http://redis.io/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: In-Memory Databases
+  image_url: https://img.stackshare.io/service/1031/default_cbce472cd134adc6688572f999e9122b9657d4ba.png
+  detection_source_url: https://github.com/2lambda123/conductor/blob/main/docker/docker-compose.yaml
+  detection_source: docker/docker-compose.yaml
+  last_updated_by: Viren Baraiya
+  last_updated_on: 2023-09-28 22:09:51.000000000 Z
+- name: Babel
+  description: Use next generation JavaScript, today.
+  website_url: http://babeljs.io/
+  version: 7.18.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JavaScript Compilers
+  image_url: https://img.stackshare.io/service/2739/-1wfGjNw.png
+  detection_source_url: https://github.com/2lambda123/conductor/blob/main/ui/yarn.lock
+  detection_source: ui/package.json
+  last_updated_by: peterlau
+  last_updated_on: 2022-07-12 22:23:55.000000000 Z
+- name: Conductor
+  description: 'A microservices orchestration engine that runs in the cloud '
+  website_url: https://netflix.github.io/conductor/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Microservices Tools
+  image_url: https://img.stackshare.io/service/6134/99V92_Sr.png
+  detection_source_url: https://github.com/2lambda123/conductor/blob/main/docker/docker-compose.yaml
+  detection_source: docker/docker-compose.yaml
+  last_updated_by: Viren Baraiya
+  last_updated_on: 2023-09-28 22:09:51.000000000 Z
+- name: Cypress
+  description: When testing is easy, developers build better things faster and with
+    confidence.
+  website_url: https://www.cypress.io/
+  version: 10.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/9231/default_66c5c1a197dcd0232e41e4ab6299d119b4e165b3.png
+  detection_source_url: https://github.com/2lambda123/conductor/blob/main/ui/yarn.lock
+  detection_source: ui/package.json
+  last_updated_by: peterlau
+  last_updated_on: 2022-07-13 18:19:00.000000000 Z
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/2lambda123/conductor
+  detection_source: Repo Metadata
+- name: ESLint
+  description: The fully pluggable JavaScript code quality tool
+  website_url: http://eslint.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source_url: https://github.com/2lambda123/conductor/blob/main/ui/.eslintrc
+  detection_source: ui/.eslintrc
+  last_updated_by: peterlau
+  last_updated_on: 2022-04-11 22:00:56.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/2lambda123/conductor
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/2lambda123/conductor/blob/main/.github/workflows/ci.yml
+  detection_source: ".github/workflows/ci.yml"
+  last_updated_by: peterlau
+  last_updated_on: 2022-07-13 18:19:00.000000000 Z
+- name: Gradle
+  description: A powerful build system for the JVM
+  website_url: https://www.gradle.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Java Build Tools
+  image_url: https://img.stackshare.io/service/975/gradlephant-social-black-bg.png
+  detection_source_url: https://github.com/2lambda123/conductor/blob/main/annotations-processor/build.gradle
+  detection_source: annotations-processor/build.gradle
+  last_updated_by: Aravindan Ramkumar
+  last_updated_on: 2021-12-20 22:57:10.000000000 Z
+- name: JaCoCo
+  description: A code coverage library for Java
+  website_url: https://www.jacoco.org/jacoco/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/2lambda123/conductor/blob/main/dependencies.lock
+  detection_source: dependencies.lock
+  last_updated_by: Poorna Reddy
+  last_updated_on: 2018-03-09 00:33:27.000000000 Z
+- name: NGINX
+  description: A high performance free open source web server powering busiest sites
+    on the Internet.
+  website_url: http://nginx.org
+  open_source: false
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Web Servers
+  image_url: https://img.stackshare.io/service/1052/YMxUfyWf.png
+  detection_source_url: https://github.com/2lambda123/conductor/blob/main/docker/server/nginx/nginx.conf
+  detection_source: docker/server/nginx/nginx.conf
+  last_updated_by: Viren Baraiya
+  last_updated_on: 2023-09-28 22:09:51.000000000 Z
+- name: Prettier
+  description: 'Prettier is an opinionated code formatter. '
+  website_url: https://prettier.io/
+  version: 2.7.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/7035/default_66f265943abed56bcdbfca1c866a4261b1fbb063.jpg
+  detection_source_url: https://github.com/2lambda123/conductor/blob/main/ui/yarn.lock
+  detection_source: ui/package.json
+  last_updated_by: peterlau
+  last_updated_on: 2022-07-12 22:23:55.000000000 Z
+- name: SLF4J
+  description: Simple logging facade for Java
+  website_url: http://slf4j.org/
+  open_source: false
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Log Management
+  image_url: https://img.stackshare.io/service/2805/05518ecaa42841e834421e9d6987b04f_400x400.png
+  detection_source_url: https://github.com/2lambda123/conductor/blob/main/client/build.gradle
+  detection_source: client/build.gradle
+  last_updated_by: Viren Baraiya
+  last_updated_on: 2016-12-07 22:49:52.000000000 Z
+- name: Spock Framework
+  description: The Enterprise-ready testing and specification framework
+  website_url: http://spockframework.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/5548/UB74SoK2_400x400.png
+  detection_source_url: https://github.com/2lambda123/conductor/blob/main/cassandra-persistence/build.gradle
+  detection_source: cassandra-persistence/build.gradle
+  last_updated_by: Aravindan Ramkumar
+  last_updated_on: 2021-11-07 03:18:26.000000000 Z
+- name: Yarn
+  description: A new package manager for JavaScript
+  website_url: https://yarnpkg.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/5848/44mC-kJ3.jpg
+  detection_source_url: https://github.com/2lambda123/conductor/blob/main/ui/yarn.lock
+  detection_source: ui/yarn.lock
+  last_updated_by: peterlau
+  last_updated_on: 2022-03-22 16:03:46.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/2lambda123/conductor/blob/main/ui/package.json
+  detection_source: ui/package.json
+  last_updated_by: Viren Baraiya
+  last_updated_on: 2016-12-07 22:49:52.000000000 Z
+- name: Apache Camel
+  description: A versatile open source integration framework
+  website_url: https://camel.apache.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Platform as a Service
+  image_url: https://img.stackshare.io/service/3276/xWt1RFo6_400x400.jpg
+  detection_source_url: https://github.com/2lambda123/conductor/blob/main/client-spring/src/test/resources/application.properties
+  detection_source: client-spring/src/test/resources/application.properties
+  last_updated_by: Viren Baraiya
+  last_updated_on: 2023-02-15 07:35:39.000000000 Z
+- name: Dataform
+  description: A framework for managing SQL based data operations.
+  website_url: https://dataform.co/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Analytics
+  sub_category: Business Intelligence
+  image_url: https://img.stackshare.io/service/11236/Group_22__3_.png
+  detection_source_url: https://github.com/2lambda123/conductor/blob/main/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Scott Carter
+  last_updated_on: 2023-11-25 06:58:27.000000000 Z
+- name: cURL
+  description: Command Line Tool and Library for Transferring Data With URLs
+  website_url: http://curl.haxx.se/
+  open_source: true
+  hosted_saas: false
+  category: Assets and Media
+  sub_category: File Transfer
+  image_url: https://img.stackshare.io/service/6552/curl-logo.png
+  detection_source_url: https://github.com/2lambda123/conductor/blob/main/docker/docker-compose.yaml
+  detection_source: docker/docker-compose.yaml
+  last_updated_by: Jesse C. Antoszyk
+  last_updated_on: 2017-01-17 16:44:02.000000000 Z
+- name: Alpine Linux
+  description: Security-oriented, lightweight Linux distribution based on musl libc
+    and busybox
+  website_url: https://www.alpinelinux.org/
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Operating Systems
+  image_url: https://img.stackshare.io/service/6429/alpine_linux.png
+  detection_source_url: https://github.com/2lambda123/conductor/blob/main/docker/docker-compose.yaml
+  detection_source: docker/docker-compose.yaml
+  last_updated_by: Manan Bhatt
+  last_updated_on: 2023-01-02 13:59:48.000000000 Z
+- name: Alt
+  description: A library for managing data within JavaScript applications
+  website_url: https://alt.js.org/
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/3649/default_01276c9c0c79674b16f9b29216bd8cc7ce9b894d.png
+  detection_source_url: https://github.com/2lambda123/conductor/blob/main/docker/docker-compose.yaml
+  detection_source: docker/docker-compose.yaml
+  last_updated_by: Jesse C. Antoszyk
+  last_updated_on: 2017-01-17 16:44:02.000000000 Z
+- name: Elasticsearch
+  description: Open Source, Distributed, RESTful Search Engine
+  website_url: https://www.elastic.co/products/elasticsearch
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Search as a Service
+  image_url: https://img.stackshare.io/service/841/Image_2019-05-20_at_4.58.04_PM.png
+  detection_source_url: https://github.com/2lambda123/conductor/blob/main/docker/docker-compose.yaml
+  detection_source: docker/docker-compose.yaml
+  last_updated_by: Viren Baraiya
+  last_updated_on: 2023-09-28 22:09:51.000000000 Z
+- name: Formik
+  description: Build forms in React
+  website_url: https://jaredpalmer.com/formik/
+  version: 2.2.9
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Web Forms
+  image_url: https://img.stackshare.io/service/8846/preview.png
+  detection_source_url: https://github.com/2lambda123/conductor/blob/main/ui/yarn.lock
+  detection_source: ui/package.json
+  last_updated_by: peterlau
+  last_updated_on: 2022-03-14 17:29:34.000000000 Z
+- name: Lodash
+  description: A JavaScript utility library
+  website_url: https://lodash.com
+  version: 4.17.21
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/2438/lodash.png
+  detection_source_url: https://github.com/2lambda123/conductor/blob/main/ui/yarn.lock
+  detection_source: ui/package.json
+  last_updated_by: Peter Lau
+  last_updated_on: 2021-09-21 20:20:33.000000000 Z
+- name: Moment.js
+  description: A JavaScript date library for parsing, validating, manipulating, and
+    formatting dates
+  website_url: http://momentjs.com/
+  version: 2.29.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/3643/Xrtdc94q_400x400.png
+  detection_source_url: https://github.com/2lambda123/conductor/blob/main/ui/yarn.lock
+  detection_source: ui/package.json
+  last_updated_by: peterlau
+  last_updated_on: 2022-04-11 22:02:11.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/2lambda123/conductor
+  detection_source: Repo Metadata
+- name: date-fns
+  description: Modern JavaScript date utility library
+  website_url: https://date-fns.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/10865/default_5551fb8853689f607a2bc0d5a09355d5a3d52bf0.png
+  detection_source_url: https://github.com/2lambda123/conductor/blob/main/ui/package.json
+  detection_source: ui/package.json
+  last_updated_by: Peter Lau
+  last_updated_on: 2021-09-21 20:20:33.000000000 Z
+- name: yup
+  website_url: https://github.com/jquense/yup
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/10756/339286.png
+  detection_source_url: https://github.com/2lambda123/conductor/blob/main/ui/package.json
+  detection_source: ui/package.json
+  last_updated_by: Viren Baraiya
+  last_updated_on: 2016-12-07 22:49:52.000000000 Z
+- name: cglib:cglib
+  description: Cglib is a powerful
+  version: 3.3.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/conductor/blob/main/java-sdk/build.gradle
+  detection_source: java-sdk/build.gradle
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2022-04-07 18:43:34.000000000 Z
+- name: com.amazonaws:aws-java-sdk-core
+  description: The AWS SDK for Java - Core module holds the classes that are used
+    by the individual service clients to interact with Amazon Web Services
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/conductor/blob/main/client/build.gradle
+  detection_source: client/build.gradle
+  last_updated_by: Viren Baraiya
+  last_updated_on: 2023-02-24 20:38:28.000000000 Z
+- name: com.amazonaws:aws-java-sdk-s3
+  description: The AWS Java SDK for Amazon S3 module holds the client classes that
+    is used for communicating with Amazon Simple Storage Service
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/conductor/blob/main/awss3-storage/build.gradle
+  detection_source: awss3-storage/build.gradle
+  last_updated_by: Anoop Panicker
+  last_updated_on: 2022-02-15 20:41:45.000000000 Z
+- name: com.amazonaws:aws-java-sdk-sqs
+  description: The AWS Java SDK for Amazon SQS module holds the client classes that
+    are used for communicating with Amazon Simple Queue Service
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/conductor/blob/main/awssqs-event-queue/build.gradle
+  detection_source: awssqs-event-queue/build.gradle
+  last_updated_by: Anoop Panicker
+  last_updated_on: 2022-02-15 20:41:45.000000000 Z
+- name: com.datastax.cassandra:cassandra-driver-core
+  description: A driver for Apache Cassandra 1.2+ that works exclusively with the
+    Cassandra Query Language version 3
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/conductor/blob/main/cassandra-persistence/build.gradle
+  detection_source: cassandra-persistence/build.gradle
+  last_updated_by: Aravindan Ramkumar
+  last_updated_on: 2021-11-07 03:18:26.000000000 Z
+- name: com.fasterxml.jackson.core:jackson-annotations
+  description: Core annotations used for value types
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/conductor/blob/main/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Scott Carter
+  last_updated_on: 2023-11-25 06:58:27.000000000 Z
+- name: com.fasterxml.jackson.core:jackson-core
+  description: Core Jackson processing abstractions
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/conductor/blob/main/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Scott Carter
+  last_updated_on: 2023-11-25 06:58:27.000000000 Z
+- name: com.fasterxml.jackson.core:jackson-databind
+  description: 'General data-binding functionality for Jackson: works on core streaming
+    API'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/conductor/blob/main/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Scott Carter
+  last_updated_on: 2023-11-25 06:58:27.000000000 Z
+- name: com.fasterxml.jackson.dataformat:jackson-dataformat-cbor
+  description: Support for reading and writing Concise Binary Object Representation
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/conductor/blob/main/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Scott Carter
+  last_updated_on: 2023-11-25 06:58:27.000000000 Z
+- name: com.fasterxml.jackson.dataformat:jackson-dataformat-smile
+  description: Support for reading and writing Smile
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/conductor/blob/main/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Scott Carter
+  last_updated_on: 2023-11-25 06:58:27.000000000 Z
+- name: com.fasterxml.jackson.dataformat:jackson-dataformat-yaml
+  description: Support for reading and writing YAML-encoded data via Jackson abstractions
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/conductor/blob/main/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Scott Carter
+  last_updated_on: 2023-11-25 06:58:27.000000000 Z
+- name: com.fasterxml.jackson.datatype:jackson-datatype-jdk8
+  description: Add-on module for Jackson
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/conductor/blob/main/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Scott Carter
+  last_updated_on: 2023-11-25 06:58:27.000000000 Z
+- name: com.fasterxml.jackson.datatype:jackson-datatype-joda
+  description: Add-on module for Jackson
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/conductor/blob/main/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Scott Carter
+  last_updated_on: 2023-11-25 06:58:27.000000000 Z
+- name: com.fasterxml.jackson.datatype:jackson-datatype-jsr310
+  description: Add-on module to support JSR-310
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/conductor/blob/main/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Scott Carter
+  last_updated_on: 2023-11-25 06:58:27.000000000 Z
+- name: com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider
+  description: Functionality to handle JSON input/output for JAX-RS implementations
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/conductor/blob/main/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Scott Carter
+  last_updated_on: 2023-11-25 06:58:27.000000000 Z
+- name: com.fasterxml.jackson.module:jackson-module-afterburner
+  description: Jackson
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/conductor/blob/main/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Scott Carter
+  last_updated_on: 2023-11-25 06:58:27.000000000 Z
+- name: com.github.ben-manes.caffeine:caffeine
+  description: A high performance caching library for Java 8+
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/conductor/blob/main/core/build.gradle
+  detection_source: core/build.gradle
+  last_updated_by: Scott Carter
+  last_updated_on: 2023-11-25 06:58:27.000000000 Z
+- name: com.github.kstyrc:embedded-redis
+  description: Redis embedded server for Java integration testing
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/conductor/blob/main/redis-lock/build.gradle
+  detection_source: redis-lock/build.gradle
+  last_updated_by: Aravindan Ramkumar
+  last_updated_on: 2020-11-26 00:38:41.000000000 Z
+- name: com.google.guava:guava
+  description: Guava is a suite of core and expanded libraries that include utility
+    classes
+  version: 32.1.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/conductor/blob/main/annotations-processor/build.gradle
+  detection_source: annotations-processor/build.gradle
+  last_updated_by: Richard Meng
+  last_updated_on: 2023-11-12 08:52:31.000000000 Z
+- name: com.google.protobuf:protobuf-java
+  description: Core Protocol Buffers library
+  version: 3.21.12
+  license: BSD-1-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/conductor/blob/main/annotations-processor/build.gradle
+  detection_source: annotations-processor/build.gradle
+  last_updated_by: Richard Meng
+  last_updated_on: 2023-11-12 08:52:31.000000000 Z
+- name: com.jayway.jsonpath:json-path
+  description: Java port of Stefan Goessner JsonPath
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/conductor/blob/main/core/build.gradle
+  detection_source: core/build.gradle
+  last_updated_by: Scott Carter
+  last_updated_on: 2023-11-25 06:58:27.000000000 Z
+- name: com.netflix.eureka:eureka-client
+  description: Eureka-client
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/conductor/blob/main/client-spring/build.gradle
+  detection_source: client-spring/build.gradle
+  last_updated_by: Jeremy Ford
+  last_updated_on: 2021-01-06 01:51:07.000000000 Z
+- name: com.netflix.spectator:spectator-api
+  description: Spectator-api
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/conductor/blob/main/client/build.gradle
+  detection_source: client/build.gradle
+  last_updated_by: Viren Baraiya
+  last_updated_on: 2023-02-24 20:38:28.000000000 Z
+- name: com.spotify:completable-futures
+  description: Convenience utilities for working with asynchronous Java 8
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/conductor/blob/main/core/build.gradle
+  detection_source: core/build.gradle
+  last_updated_by: Scott Carter
+  last_updated_on: 2023-11-25 06:58:27.000000000 Z
+- name: com.sun.jersey:jersey-client
+  license: CNRI-Python-GPL-Compatible
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/conductor/blob/main/client/build.gradle
+  detection_source: client/build.gradle
+  last_updated_by: Viren Baraiya
+  last_updated_on: 2023-02-24 20:38:28.000000000 Z
+- name: com.thoughtworks.xstream:xstream
+  description: XStream is a serialization library from Java objects to XML and back
+  version: 1.4.20
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/conductor/blob/main/redis-persistence/build.gradle
+  detection_source: redis-persistence/build.gradle
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-02-06 13:06:05.000000000 Z
+  vulnerabilities:
+  - name: XStream Denial of Service due to parser crash
+    cve_id: CVE-2022-40153
+    cve_url: https://github.com/advisories/GHSA-fv22-xp26-mm9w
+    detected_date: Sep 21
+    severity: high
+    first_patched: 
+  - name: XStream Denial of Service due to parser crash
+    cve_id: CVE-2022-40152
+    cve_url: https://github.com/advisories/GHSA-3f7h-mf4q-vrm4
+    detected_date: Sep 21
+    severity: low
+    first_patched: 
+  - name: XStream Denial of Service due to parser crash
+    cve_id: CVE-2022-40156
+    cve_url: https://github.com/advisories/GHSA-4rv7-wj6m-6c6r
+    detected_date: Sep 21
+    severity: low
+    first_patched: 
+- name: commons-io:commons-io
+  description: The Apache Commons IO library contains utility classes
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/conductor/blob/main/client/build.gradle
+  detection_source: client/build.gradle
+  last_updated_by: Viren Baraiya
+  last_updated_on: 2023-02-24 20:38:28.000000000 Z
+- name: io.grpc:grpc-netty
+  description: 'GRPC: Netty'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/conductor/blob/main/grpc-client/build.gradle
+  detection_source: grpc-client/build.gradle
+  last_updated_by: Aravindan Ramkumar
+  last_updated_on: 2020-11-26 00:38:41.000000000 Z
+- name: io.grpc:grpc-protobuf
+  description: 'GRPC: Protobuf'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/conductor/blob/main/grpc-client/build.gradle
+  detection_source: grpc-client/build.gradle
+  last_updated_by: Aravindan Ramkumar
+  last_updated_on: 2020-11-26 00:38:41.000000000 Z
+- name: io.grpc:grpc-stub
+  description: 'GRPC: Stub'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/conductor/blob/main/grpc-client/build.gradle
+  detection_source: grpc-client/build.gradle
+  last_updated_by: Aravindan Ramkumar
+  last_updated_on: 2020-11-26 00:38:41.000000000 Z
+- name: io.grpc:grpc-testing
+  description: 'GRPC: Testing'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/conductor/blob/main/grpc-server/build.gradle
+  detection_source: grpc-server/build.gradle
+  last_updated_by: Richard Meng
+  last_updated_on: 2023-11-12 08:52:31.000000000 Z
+- name: io.reactivex:rxjava
+  description: Rxjava
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/conductor/blob/main/awssqs-event-queue/build.gradle
+  detection_source: awssqs-event-queue/build.gradle
+  last_updated_by: Anoop Panicker
+  last_updated_on: 2022-02-15 20:41:45.000000000 Z
+- name: javax.annotation:javax.annotation-api
+  description: Common Annotations for the JavaTM Platform API
+  version: 1.3.2
+  license: GPL-2.0-with-classpath-exception
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/conductor/blob/main/annotations-processor/build.gradle
+  detection_source: annotations-processor/build.gradle
+  last_updated_by: Richard Meng
+  last_updated_on: 2023-11-12 08:52:31.000000000 Z
+- name: javax.ws.rs:javax.ws.rs-api
+  license: CDDL-1.1,CNRI-Python-GPL-Compatible
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/conductor/blob/main/client/build.gradle
+  detection_source: client/build.gradle
+  last_updated_by: Viren Baraiya
+  last_updated_on: 2023-02-24 20:38:28.000000000 Z
+- name: javax.ws.rs:jsr311-api
+  license: Zed
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/conductor/blob/main/http-task/build.gradle
+  detection_source: http-task/build.gradle
+  last_updated_by: Anoop Panicker
+  last_updated_on: 2022-02-15 20:41:45.000000000 Z
+- name: junit:junit
+  description: JUnit is a unit testing framework for Java
+  version: 4.13.2
+  license: EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/conductor/blob/main/test-harness/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Aravindan Ramkumar
+  last_updated_on: 2022-06-30 22:42:07.000000000 Z
+- name: net.java.dev.jna:jna
+  description: Java Native Access
+  version: 5.13.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/conductor/blob/main/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Scott Carter
+  last_updated_on: 2023-11-25 06:58:27.000000000 Z
+- name: org.apache.commons:commons-lang3
+  description: Apache Commons Lang
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/conductor/blob/main/awss3-storage/build.gradle
+  detection_source: awss3-storage/build.gradle
+  last_updated_by: Anoop Panicker
+  last_updated_on: 2022-02-15 20:41:45.000000000 Z
+- name: org.apache.logging.log4j:log4j-api
+  description: The Apache Log4j API
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/conductor/blob/main/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Scott Carter
+  last_updated_on: 2023-11-25 06:58:27.000000000 Z
+- name: org.apache.logging.log4j:log4j-core
+  description: The Apache Log4j Implementation
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/conductor/blob/main/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Scott Carter
+  last_updated_on: 2023-11-25 06:58:27.000000000 Z
+- name: org.apache.logging.log4j:log4j-jul
+  description: The Apache Log4j implementation of java.util.logging
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/conductor/blob/main/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Scott Carter
+  last_updated_on: 2023-11-25 06:58:27.000000000 Z
+- name: org.apache.logging.log4j:log4j-slf4j-impl
+  description: Binding between SLF4J API and Log4J2 Core
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/conductor/blob/main/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Scott Carter
+  last_updated_on: 2023-11-25 06:58:27.000000000 Z
+- name: org.apache.logging.log4j:log4j-web
+  description: Apache Log4j Adapters for Web Applications
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/conductor/blob/main/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Scott Carter
+  last_updated_on: 2023-11-25 06:58:27.000000000 Z
+- name: org.awaitility:awaitility
+  description: A Java DSL for synchronizing asynchronous operations
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/conductor/blob/main/es6-persistence/build.gradle
+  detection_source: es6-persistence/build.gradle
+  last_updated_by: Anoop Panicker
+  last_updated_on: 2022-04-15 00:14:05.000000000 Z
+- name: org.bouncycastle:bcpkix-jdk15on
+  description: The Bouncy Castle Java APIs for CMS, PKCS, EAC, TSP, CMP, CRMF, OCSP,
+    and certificate generation
+  version: '1.70'
+  license: LAL-1.3
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/conductor/blob/main/http-task/build.gradle
+  detection_source: http-task/build.gradle
+  last_updated_by: Alex May
+  last_updated_on: 2023-07-20 20:41:42.000000000 Z
+- name: org.bouncycastle:bcprov-jdk15on
+  description: The Bouncy Castle Crypto package is a Java implementation of cryptographic
+    algorithms
+  version: '1.70'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/conductor/blob/main/http-task/build.gradle
+  detection_source: http-task/build.gradle
+  last_updated_by: Alex May
+  last_updated_on: 2023-07-20 20:41:42.000000000 Z
+  vulnerabilities:
+  - name: Bouncy Castle For Java LDAP injection vulnerability
+    cve_id: CVE-2023-33201
+    cve_url: https://github.com/advisories/GHSA-hr8g-6v94-x4m9
+    detected_date: Sep 6
+    severity: moderate
+    first_patched: 
+- name: org.codehaus.groovy:groovy-all
+  description: 'Groovy: A powerful, dynamic language for the JVM'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/conductor/blob/main/cassandra-persistence/build.gradle
+  detection_source: cassandra-persistence/build.gradle
+  last_updated_by: Aravindan Ramkumar
+  last_updated_on: 2021-11-07 03:18:26.000000000 Z
+- name: org.elasticsearch.client:elasticsearch-rest-client
+  description: Elasticsearch subproject :client:rest
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/conductor/blob/main/es6-persistence/build.gradle
+  detection_source: es6-persistence/build.gradle
+  last_updated_by: Anoop Panicker
+  last_updated_on: 2022-04-15 00:14:05.000000000 Z
+- name: org.elasticsearch.client:elasticsearch-rest-high-level-client
+  description: Elasticsearch subproject :client:rest-high-level
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/conductor/blob/main/es6-persistence/build.gradle
+  detection_source: es6-persistence/build.gradle
+  last_updated_by: Anoop Panicker
+  last_updated_on: 2022-04-15 00:14:05.000000000 Z
+- name: org.elasticsearch.client:transport
+  description: Elasticsearch subproject :client:transport
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/conductor/blob/main/es6-persistence/build.gradle
+  detection_source: es6-persistence/build.gradle
+  last_updated_by: Anoop Panicker
+  last_updated_on: 2022-04-15 00:14:05.000000000 Z
+- name: org.glassfish.jaxb:jaxb-runtime
+  description: JAXB
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/conductor/blob/main/core/build.gradle
+  detection_source: core/build.gradle
+  last_updated_by: Alex May
+  last_updated_on: 2023-07-20 20:41:42.000000000 Z
+- name: org.glassfish.jersey.core:jersey-common
+  description: Jersey core common packages
+  license: NetCDF
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/conductor/blob/main/client/build.gradle
+  detection_source: client/build.gradle
+  last_updated_by: Viren Baraiya
+  last_updated_on: 2023-02-24 20:38:28.000000000 Z
+- name: org.jetbrains:annotations
+  description: A set of annotations used for code inspection support and code documentation
+  version: 23.0.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/conductor/blob/main/client/build.gradle
+  detection_source: client/build.gradle
+  last_updated_by: Viren Baraiya
+  last_updated_on: 2023-02-24 20:38:28.000000000 Z
+- name: org.junit.vintage:junit-vintage-engine
+  description: Module "junit-vintage-engine" of JUnit 5
+  license: EPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/conductor/blob/main/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Scott Carter
+  last_updated_on: 2023-11-25 06:58:27.000000000 Z
+- name: org.mock-server:mockserver-client-java
+  description: A java client for the MockServer
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/conductor/blob/main/http-task/build.gradle
+  detection_source: http-task/build.gradle
+  last_updated_by: Alex May
+  last_updated_on: 2023-07-20 20:41:42.000000000 Z
+- name: org.powermock:powermock-api-mockito2
+  description: PowerMock API for Mockito 2.+.
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/conductor/blob/main/client/build.gradle
+  detection_source: client/build.gradle
+  last_updated_by: Viren Baraiya
+  last_updated_on: 2023-02-24 20:38:28.000000000 Z
+- name: org.powermock:powermock-module-junit4
+  description: PowerMock support module for JUnit 4.x
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/conductor/blob/main/client/build.gradle
+  detection_source: client/build.gradle
+  last_updated_by: Viren Baraiya
+  last_updated_on: 2023-02-24 20:38:28.000000000 Z
+- name: org.redisson:redisson
+  description: Redis based In-Memory Data Grid for Java
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/conductor/blob/main/redis-lock/build.gradle
+  detection_source: redis-lock/build.gradle
+  last_updated_by: Aravindan Ramkumar
+  last_updated_on: 2021-02-11 00:05:55.000000000 Z
+- name: org.slf4j:slf4j-api
+  description: The slf4j API
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/conductor/blob/main/client/build.gradle
+  detection_source: client/build.gradle
+  last_updated_by: Viren Baraiya
+  last_updated_on: 2023-02-24 20:38:28.000000000 Z
+- name: org.spockframework:spock-core
+  description: Spock is a testing and specification framework for Java and Groovy
+    applications
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/conductor/blob/main/cassandra-persistence/build.gradle
+  detection_source: cassandra-persistence/build.gradle
+  last_updated_by: Aravindan Ramkumar
+  last_updated_on: 2021-11-07 03:18:26.000000000 Z
+- name: org.spockframework:spock-spring
+  description: Spock's Spring Module makes it possible to use Spring's TestContext
+    framework together with Spock
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/conductor/blob/main/cassandra-persistence/build.gradle
+  detection_source: cassandra-persistence/build.gradle
+  last_updated_by: Aravindan Ramkumar
+  last_updated_on: 2021-11-07 03:18:26.000000000 Z
+- name: org.springframework.boot:spring-boot-starter
+  description: Core starter
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/conductor/blob/main/awss3-storage/build.gradle
+  detection_source: awss3-storage/build.gradle
+  last_updated_by: Anoop Panicker
+  last_updated_on: 2022-02-15 20:41:45.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-actuator
+  description: Starter for using Spring Boot's Actuator which provides production
+    ready features to help you monitor and manage your application
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/conductor/blob/main/server/build.gradle
+  detection_source: server/build.gradle
+  last_updated_by: Richard Meng
+  last_updated_on: 2023-11-12 08:52:31.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-log4j2
+  description: Starter for using Log4j2 for logging
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/conductor/blob/main/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Scott Carter
+  last_updated_on: 2023-11-25 06:58:27.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-test
+  description: Starter for testing Spring Boot applications with libraries including
+    JUnit
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/conductor/blob/main/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Scott Carter
+  last_updated_on: 2023-11-25 06:58:27.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-validation
+  description: Starter for using Java Bean Validation with Hibernate Validator
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/conductor/blob/main/common/build.gradle
+  detection_source: common/build.gradle
+  last_updated_by: Scott Carter
+  last_updated_on: 2023-11-25 06:58:27.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-web
+  description: Starter for building web, including RESTful, applications using Spring
+    MVC
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/conductor/blob/main/http-task/build.gradle
+  detection_source: http-task/build.gradle
+  last_updated_by: Alex May
+  last_updated_on: 2023-07-20 20:41:42.000000000 Z
+- name: org.springframework.data:spring-data-redis
+  description: Global parent pom.xml to be used by Spring Data modules
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/conductor/blob/main/redis-concurrency-limit/build.gradle
+  detection_source: redis-concurrency-limit/build.gradle
+  last_updated_by: Aravindan Ramkumar
+  last_updated_on: 2022-06-30 22:37:39.000000000 Z
+- name: org.springframework.retry:spring-retry
+  description: "#&lt;Ox::CData:0x00007efddc429b78&gt;"
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/conductor/blob/main/core/build.gradle
+  detection_source: core/build.gradle
+  last_updated_by: Alex May
+  last_updated_on: 2023-07-20 20:41:42.000000000 Z
+- name: org.springframework:spring-web
+  description: Spring Web
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/conductor/blob/main/java-sdk/build.gradle
+  detection_source: java-sdk/build.gradle
+  last_updated_by: Alex May
+  last_updated_on: 2023-07-20 20:41:42.000000000 Z
+- name: org.testcontainers:testcontainers
+  description: Isolated container management for Java code testing
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/conductor/blob/main/redis-concurrency-limit/build.gradle
+  detection_source: redis-concurrency-limit/build.gradle
+  last_updated_by: Aravindan Ramkumar
+  last_updated_on: 2021-11-14 23:14:18.000000000 Z
+- name: org.yaml:snakeyaml
+  description: YAML 1.1 parser and emitter for Java
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/conductor/blob/main/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Scott Carter
+  last_updated_on: 2023-11-25 06:58:27.000000000 Z
+- name: redis.clients:jedis
+  description: Jedis is a blazingly small and sane Redis java client
+  version: 3.6.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/conductor/blob/main/redis-concurrency-limit/build.gradle
+  detection_source: redis-concurrency-limit/build.gradle
+  last_updated_by: Aravindan Ramkumar
+  last_updated_on: 2022-06-30 22:37:39.000000000 Z
+- name: "@babel/core"
+  description: Babel compiler core
+  package_url: https://www.npmjs.com/@babel/core
+  version: 7.18.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15810/default_004658cda9b38934f2871435e9dc15608c86e8be.png
+  detection_source_url: https://github.com/2lambda123/conductor/blob/main/ui/yarn.lock
+  detection_source: ui/package.json
+  last_updated_by: peterlau
+  last_updated_on: 2022-07-12 22:23:55.000000000 Z
+- name: "@babel/preset-env"
+  description: A Babel preset for each environment
+  package_url: https://www.npmjs.com/@babel/preset-env
+  version: 7.18.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15819/default_98aa227f51aa9d787815ec3fd98d0ab2bfebbb91.png
+  detection_source_url: https://github.com/2lambda123/conductor/blob/main/ui/yarn.lock
+  detection_source: ui/package.json
+  last_updated_by: peterlau
+  last_updated_on: 2022-07-13 18:19:00.000000000 Z
+- name: "@babel/register"
+  description: Babel require hook
+  package_url: https://www.npmjs.com/@babel/register
+  version: 7.18.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16014/default_7a465bc85b23fd837cbc038fd1d504632c41a884.png
+  detection_source_url: https://github.com/2lambda123/conductor/blob/main/ui/yarn.lock
+  detection_source: ui/package.json
+  last_updated_by: peterlau
+  last_updated_on: 2022-07-12 22:23:55.000000000 Z
+- name: "@material-ui/core"
+  description: React components that implement Google's Material Design
+  package_url: https://www.npmjs.com/@material-ui/core
+  version: 4.12.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16271/default_f04d39fc656c2e32ee1b9d3875a3002459aa3b69.png
+  detection_source_url: https://github.com/2lambda123/conductor/blob/main/ui/yarn.lock
+  detection_source: ui/package.json
+  last_updated_by: peterlau
+  last_updated_on: 2022-07-12 22:23:55.000000000 Z
+- name: "@material-ui/icons"
+  description: Material Design Svg Icons converted to Material-UI React components
+  package_url: https://www.npmjs.com/@material-ui/icons
+  version: 4.11.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16471/default_73c88a18b684e01cbdbf945631a40a44aff5a777.png
+  detection_source_url: https://github.com/2lambda123/conductor/blob/main/ui/yarn.lock
+  detection_source: ui/package.json
+  last_updated_by: peterlau
+  last_updated_on: 2022-03-14 17:29:34.000000000 Z
+- name: "@material-ui/lab"
+  description: Material-UI Lab - Incubator for Material-UI React components
+  package_url: https://www.npmjs.com/@material-ui/lab
+  version: 4.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18760/default_b057657dca80f65f97b5bbe8ba405ffa92071739.png
+  detection_source_url: https://github.com/2lambda123/conductor/blob/main/ui/yarn.lock
+  detection_source: ui/package.json
+  last_updated_by: peterlau
+  last_updated_on: 2022-03-14 17:29:34.000000000 Z
+- name: "@material-ui/styles"
+  description: Material-UI Styles - The styling solution of Material-UI
+  package_url: https://www.npmjs.com/@material-ui/styles
+  version: 4.11.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17576/default_e98b11d23d67b728bd1f3e02eba62d97a55febbd.png
+  detection_source_url: https://github.com/2lambda123/conductor/blob/main/ui/yarn.lock
+  detection_source: ui/package.json
+  last_updated_by: peterlau
+  last_updated_on: 2022-03-14 17:29:34.000000000 Z
+- name: d3
+  description: Data-Driven Documents
+  package_url: https://www.npmjs.com/d3
+  version: 5.16.0
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16224/default_fef27d1523ac1844fc00e83e47bddd8898ff8a89.png
+  detection_source_url: https://github.com/2lambda123/conductor/blob/main/ui/yarn.lock
+  detection_source: ui/package.json
+  last_updated_by: Viren Baraiya
+  last_updated_on: 2016-12-07 22:49:52.000000000 Z
+- name: eslint-plugin-cypress
+  description: An ESLint plugin for projects using Cypress
+  package_url: https://www.npmjs.com/eslint-plugin-cypress
+  version: 2.12.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18548/default_0998c3a5bd64540d478b8f189bd9d22c3c17b6a0.png
+  detection_source_url: https://github.com/2lambda123/conductor/blob/main/ui/yarn.lock
+  detection_source: ui/package.json
+  last_updated_by: peterlau
+  last_updated_on: 2022-07-13 18:19:00.000000000 Z
+- name: http-proxy-middleware
+  description: The one-liner node.js proxy middleware for connect
+  package_url: https://www.npmjs.com/http-proxy-middleware
+  version: 2.0.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16167/default_77b54a203c743d16eddb6b6390cba17218454fa0.png
+  detection_source_url: https://github.com/2lambda123/conductor/blob/main/ui/yarn.lock
+  detection_source: ui/package.json
+  last_updated_by: peterlau
+  last_updated_on: 2022-07-13 18:19:00.000000000 Z
+- name: http-server
+  description: A simple zero-configuration command-line http server
+  package_url: https://www.npmjs.com/http-server
+  version: 14.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16118/default_f905d9556a0330de59b502a579c1f5c4be2b48bf.png
+  detection_source_url: https://github.com/2lambda123/conductor/blob/main/ui/yarn.lock
+  detection_source: ui/package.json
+  last_updated_by: peterlau
+  last_updated_on: 2022-07-13 18:19:00.000000000 Z
+- name: immutability-helper
+  description: Mutate a copy of data without changing the original source
+  package_url: https://www.npmjs.com/immutability-helper
+  version: 3.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17042/default_0e6669b56ffe7d68d8118eb8e85d024215fd5906.png
+  detection_source_url: https://github.com/2lambda123/conductor/blob/main/ui/yarn.lock
+  detection_source: ui/package.json
+  last_updated_by: Peter Lau
+  last_updated_on: 2021-09-21 20:20:33.000000000 Z
+- name: js-yaml
+  description: YAML 1.2 parser and serializer
+  package_url: https://www.npmjs.com/js-yaml
+  version: 4.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15997/default_f8be85789693a9901dbcfa43c135c60525ae49a1.png
+  detection_source_url: https://github.com/2lambda123/conductor/blob/main/ui/yarn.lock
+  detection_source: ui/package.json
+  last_updated_by: peterlau
+  last_updated_on: 2022-05-12 22:00:21.000000000 Z
+- name: moment
+  description: Parse, validate, manipulate, and display dates
+  package_url: https://www.npmjs.com/moment
+  version: 2.29.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15847/default_4479dbac220be99e50e724b2df6cf415241d71fd.png
+  detection_source_url: https://github.com/2lambda123/conductor/blob/main/ui/yarn.lock
+  detection_source: ui/package.json
+  last_updated_by: peterlau
+  last_updated_on: 2022-04-11 22:02:11.000000000 Z
+- name: monaco-editor
+  description: A browser based code editor
+  package_url: https://www.npmjs.com/monaco-editor
+  version: 0.44.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18275/default_04867aeead13d19d0c97d0c649f8b38985a43aba.png
+  detection_source_url: https://github.com/2lambda123/conductor/blob/main/ui/yarn.lock
+  detection_source: ui/package.json
+  last_updated_by: Young-Zen
+  last_updated_on: 2023-11-12 08:53:11.000000000 Z
+- name: node-forge
+  description: JavaScript implementations of network transports
+  package_url: https://www.npmjs.com/node-forge
+  version: 1.3.1
+  license: BSD-3-Clause,GPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17082/default_5b9eca95ab3651165eb280ed5e0bc9a9382ad24d.png
+  detection_source_url: https://github.com/2lambda123/conductor/blob/main/ui/yarn.lock
+  detection_source: ui/package.json
+  last_updated_by: Peter Lau
+  last_updated_on: 2022-04-13 21:02:04.000000000 Z
+- name: prop-types
+  description: Runtime type checking for React props and similar objects
+  package_url: https://www.npmjs.com/prop-types
+  version: 15.8.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15843/default_b71c906aeda030a5e2f1fe40bf12a93be52404ab.png
+  detection_source_url: https://github.com/2lambda123/conductor/blob/main/ui/yarn.lock
+  detection_source: ui/package.json
+  last_updated_by: peterlau
+  last_updated_on: 2022-07-12 22:23:55.000000000 Z
+- name: react-dom
+  description: React package for working with the DOM
+  package_url: https://www.npmjs.com/react-dom
+  version: 16.14.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15808/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/2lambda123/conductor/blob/main/ui/yarn.lock
+  detection_source: ui/package.json
+  last_updated_by: Young-Zen
+  last_updated_on: 2023-11-12 08:53:11.000000000 Z
+- name: react-helmet
+  description: A document head manager for React
+  package_url: https://www.npmjs.com/react-helmet
+  version: 6.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16513/default_4e3259350c525d1d859fa80a938000081d7c9db8.png
+  detection_source_url: https://github.com/2lambda123/conductor/blob/main/ui/yarn.lock
+  detection_source: ui/package.json
+  last_updated_by: Young-Zen
+  last_updated_on: 2023-11-12 08:53:11.000000000 Z
+- name: react-is
+  description: Brand checking of React Elements
+  package_url: https://www.npmjs.com/react-is
+  version: 16.13.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17829/default_2a0f136cfb588dd9053268b73a18a953e8d65590.png
+  detection_source_url: https://github.com/2lambda123/conductor/blob/main/ui/yarn.lock
+  detection_source: ui/package.json
+  last_updated_by: Young-Zen
+  last_updated_on: 2023-11-12 08:53:11.000000000 Z
+- name: react-router
+  description: A complete routing library for React
+  package_url: https://www.npmjs.com/react-router
+  version: 5.3.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16058/default_261820f5687b4c88a3e8f95c71b5e8dccd34c1d7.png
+  detection_source_url: https://github.com/2lambda123/conductor/blob/main/ui/yarn.lock
+  detection_source: ui/package.json
+  last_updated_by: Young-Zen
+  last_updated_on: 2023-11-12 08:53:11.000000000 Z
+- name: react-router-dom
+  description: DOM bindings for React Router
+  package_url: https://www.npmjs.com/react-router-dom
+  version: 5.3.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16025/default_e25d1fbb04a118c79fb444294461417342bd03bf.png
+  detection_source_url: https://github.com/2lambda123/conductor/blob/main/ui/yarn.lock
+  detection_source: ui/package.json
+  last_updated_by: Young-Zen
+  last_updated_on: 2023-11-12 08:53:11.000000000 Z
+- name: react-scripts
+  description: Configuration and scripts for Create React App
+  package_url: https://www.npmjs.com/react-scripts
+  version: 5.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15985/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
+  detection_source_url: https://github.com/2lambda123/conductor/blob/main/ui/yarn.lock
+  detection_source: ui/package.json
+  last_updated_by: Young-Zen
+  last_updated_on: 2023-11-12 08:53:11.000000000 Z
+- name: url-parse
+  description: Small footprint URL parser that works seamlessly across Node.js and
+    browser environments
+  package_url: https://www.npmjs.com/url-parse
+  version: 1.5.10
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16942/default_3772c3833c88109974c994fa9f9548ac8ad59f11.png
+  detection_source_url: https://github.com/2lambda123/conductor/blob/main/ui/yarn.lock
+  detection_source: ui/package.json
+  last_updated_by: Peter Lau
+  last_updated_on: 2021-09-21 20:20:33.000000000 Z
+- name: yup
+  description: Dead simple Object schema validation
+  package_url: https://www.npmjs.com/yup
+  version: 0.32.11
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17215/default_37d9ccc57ae4d32e7ff46614e4f8bb2c4ddc7964.png
+  detection_source_url: https://github.com/2lambda123/conductor/blob/main/ui/yarn.lock
+  detection_source: ui/package.json
+  last_updated_by: Viren Baraiya
+  last_updated_on: 2016-12-07 22:49:52.000000000 Z
